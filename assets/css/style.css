@@ -1,0 +1,86 @@
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+}
+*{
+    min-height: 0;
+    min-width: 0;
+    height: 0;
+    width: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Clash Display', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li,ol{
+    list-style: none;
+}
+
+body{
+background-color: #141414;
+overflow-x: hidden;
+}
+.homeheader{
+    position: absolute;
+    height: 100vh;
+    width: 100%;   
+     background-image : url("https://zupimages.net/up/23/17/hyht.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slidercontent{
+    display: inline;
+    text-align: center;
+    margin-top: 25%;
+    left: 15%;
+    line-height: 60px;
+    width: 100%;
+    height: auto;
+    
+}
+.slidercontent_status{
+    background-color: #fff;
+    color: #141414;
+    height: 60px;
+    width: 150px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.slidercontent_title{
+    display: inline;
+    font-weight: bold;
+    font-size: 70px;
+    width: 500px;
+}
+
+.newsslider{
+    position: relative;
+   display: grid;
+   grid-auto-rows: calc(300px - 250px);
+     top: 530px;
+     left: 50px;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 1rem;
+
+}
+.newsslider_card{
+    display: inline;
+    height: 300px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.newsslider_card .one{
+    position: relative;
+    height: auto;
+    width: auto;   
+     background-image : url("https://zupimages.net/up/23/17/hyht.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
